@@ -7,8 +7,8 @@ client.on('ready', () => {
 });
 
 client.on('ready', async() => {
-var server = "504716682263134218"; // ايدي السررفر
-var channel = "504716682263134220";//ايدي الروم
+var server = "510080260386324500"; // ايدي السررفر
+var channel = "510417898075062272";//ايدي الروم
     setInterval(()=>{
     client.guilds.get(server).channels.get(channel).send('** Dream , Dream , Dream , Dream , Dream , Dream , Dream , Dream , **')
     },305);
